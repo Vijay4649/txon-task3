@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    background: url(apple.jpg) no-repeat center center/cover ;
+    color: transparent;
+}
+
+body {
+    margin: 70px auto auto 130px;
+    min-height: 80vh;
+    width: 80%;
+    background-color: #0c0b0b;
+    border: 2px solid rgb(224, 33, 33);
+    border-radius: 13px;
+    color: #949daf;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+   
+    padding: 20px;
+    color: indianred;
+    text-align:center;
+}
+
+
+
+h2 {
+/*     position: relative; */
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    color: #384152;
+    background: indianred;
+    text-align: center;
+}
+form{
+    padding-top: 20px;
+}
+.first {
+    width: 60%;
+    margin: 0px auto auto 20px;
+    padding: 17px;
+    background:indianred;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.first:focus {
+    background-color: white;
+    color: black;
+}
+
+.second {
+    margin-left: 31px;
+    padding: 7px;
+    background: transparent;
+/*     background: linear-gradient(to left, #d22069, #c2268b, #b52aa7, #9b31d3, #a030d0, #9037f8); */
+ background: indianred;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-background-clip:text;
+    color: transparent;
+    cursor: pointer;
+}
+
+.second:hover {
+    border-radius: 10px;
+  
+    color: indianred;
+    outline:indianred 2px solid;
+}
+
+h3 {
+    margin: 32px auto auto 20px;
+    color: white;
+    font-size: 23px;
+    text-decoration: underline 1px white;
+    letter-spacing: 2px;
+}
+
+li {
+   
+    padding: 15px;
+    padding-right: 50px;
+    margin: 23px auto 23px auto;
+    background:indianred;
+    border-radius: 13px;
+    color: white;
+}
+
+li:hover {
+    background-color: white;
+    color: #949daa;
+}
+
+ul {
+    padding-left: 15px;
+    width: 380px;
+    list-style-type: none;
+    margin: 2px 2px 20px 5px;
+}
+
+.delete {
+    padding: 5px;
+    color: indianred;
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 580px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit {
+    padding: 5px;
+    border: none;
+    background: indianred;
+/*     background: linear-gradient(to left, #d22069, #c2268b, #b52aa7, #9b31d3, #a030d0, #9037f8); */
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    left: 660px;
+}
+
+.edit:hover,
+.delete:hover {
+    outline: 2px solid indianred;
+    border-radius: 10px;
+    color: indianred;
+}
+Footer
